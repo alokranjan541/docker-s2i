@@ -1,6 +1,6 @@
 FROM alpine
 
-LABEL maintainer Bill Wang <ozbillwang@gmail.com>
+LABEL maintainer Chakradhar Rao Jonagam
 
 RUN apk --update add git openssh sudo && \
     rm -rf /var/lib/apt/lists/* && \
